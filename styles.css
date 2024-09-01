@@ -11078,3 +11078,51 @@ html {
     font-style: normal;
     font-display: swap;
   }
+
+
+
+/* Extra Small Devices (Phones) */
+@media (max-width: 576px) {
+
+  
+  /* Styles for extra small devices */
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 768px) {
+ 
+  /* Styles for small devices */
+}
+
+
+
+
+/* Large Devices (Laptops, Desktops) */
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* Styles for large devices */
+  .more-images-item{
+    position: relative !important;
+
+  }
+  .video-caro{
+   
+    width: 100% !important;
+    position: absolute !important;
+    bottom: -200px !important;
+  }
+}
+
+/* Extra Large Devices (Desktops) */
+@media (min-width: 1200px) {
+  /* Styles for extra large devices */
+  .more-images-item{
+    position: relative !important;
+
+  }
+  .video-caro{
+   
+    width: 100% !important;
+    position: absolute !important;
+    bottom: -200px !important;
+  }
+}
